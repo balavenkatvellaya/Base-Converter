@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(img/number.jpg);
+}
+
+.heading {
+  color: #e9e2e1;
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.outer {
+  width: 50%;
+  margin: 100px auto;
+  box-shadow: 0px 6px 12px grey;
+  padding: 50px 20px;
+  text-align: center;
+  border-radius: 30px;
+  background-color: rgb(99, 104, 107, 0.8);
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 50px;
+  padding-bottom: 60px;
+}
+
+.input-field {
+  padding: 4px 8px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0px 2px 4px rgb(49, 112, 111);
+  font-size: 16px;
+  font-weight: 500;
+  width: 80%;
+  margin: auto;
+  outline: none !important;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+#inputvalue {
+  width: 50%;
+  font-size: 20px;
+}
+
+button {
+  margin: auto 12px;
+  padding: 4px 20px;
+  border-radius: 5px;
+  background-color: #faab78;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+}
+
+.buttons {
+  margin: 40px;
+}
+
+button:hover {
+  box-shadow: 0px 2px 4px rgb(16, 87, 131);
+}
+
+#result-box {
+  color: rgb(244, 228, 228);
+  font-size: 24px;
+  font-weight: 600;
+}
